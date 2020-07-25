@@ -1,0 +1,31 @@
+{
+  "name": "fassiona",
+  "version": "1.0.0",
+  "description": "Indian student nd Masters community cum Job board",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app",
+    "dev":"ndemon app"
+  },
+  "keywords": [
+    "government",
+    "jobs",
+    "All",
+    "types",
+    "of",
+    "jobs"
+  ],
+  "author": "Sayed Anwar Ul Haq",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "mongoose": "^5.9.25",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
